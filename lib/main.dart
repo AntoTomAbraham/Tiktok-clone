@@ -112,7 +112,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 bottom: 20.0,
                 right: 0,
                 child: Column(
+                  // crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
+                    //Text(
+                    // "iam xyz564",
+                    //style: TextStyle(color: Colors.white),
+                    //),
+                    //Text(
+                    //  "#gygyugyug,#dyrfftyft",
+                    //  style: TextStyle(color: Colors.white),
+                    //  ),
+                    //        Text(
+                    //"hjhjjhhjkjnk",
+                    // style: TextStyle(color: Colors.white),
+                    // ),
                     GestureDetector(
                       child: Container(
                           child: CircleAvatar(
@@ -120,34 +133,74 @@ class _MyHomePageState extends State<MyHomePage> {
                         backgroundImage: AssetImage("images/a1.png"),
                       )),
                     ),
+                    SizedBox(
+                      height: 20.0,
+                    ),
                     GestureDetector(
                       child: Container(
-                          child: CircleAvatar(
-                        radius: 20.0,
-                        backgroundImage: AssetImage("images/a1.png"),
+                        child: Column(
+                          children: <Widget>[
+                            Icon(
+                              Icons.favorite,
+                              color: Colors.white,
+                              size: 40.0,
+                            ),
+                            Text(
+                              "20.5k",
+                              style: TextStyle(color: Colors.white),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20.0,
+                    ),
+                    GestureDetector(
+                        child: Container(
+                      child: Column(
+                        children: <Widget>[
+                          Icon(
+                            Icons.chat,
+                            color: Colors.white,
+                            size: 40.0,
+                          ),
+                          Text(
+                            "10.1k",
+                            style: TextStyle(color: Colors.white),
+                          )
+                        ],
+                      ),
+                    )),
+                    SizedBox(
+                      height: 20.0,
+                    ),
+                    GestureDetector(
+                      child: Container(
+                          child: Column(
+                        children: <Widget>[
+                          Icon(
+                            Icons.share,
+                            color: Colors.white,
+                            size: 40.0,
+                          ),
+                          Text(
+                            "7.4k",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ],
                       )),
+                    ),
+                    SizedBox(
+                      height: 50.0,
                     ),
                     GestureDetector(
                       child: Container(
                           child: CircleAvatar(
                         radius: 20.0,
-                        backgroundImage: AssetImage("images/a1.png"),
+                        backgroundImage: AssetImage("images/a4.jpg"),
                       )),
                     ),
-                    GestureDetector(
-                      child: Container(
-                          child: CircleAvatar(
-                        radius: 20.0,
-                        backgroundImage: AssetImage("images/a1.png"),
-                      )),
-                    ),
-                    GestureDetector(
-                      child: Container(
-                          child: CircleAvatar(
-                        radius: 20.0,
-                        backgroundImage: AssetImage("images/a1.png"),
-                      )),
-                    )
                   ],
                 ))
           ],
